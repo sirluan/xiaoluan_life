@@ -1,0 +1,130 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "工具箱",
+				"navigationStyle": "custom" 
+			}
+		},
+		{
+			"path": "pages/notes/notes",
+			"style": {
+				"navigationBarTitleText": "笔记"
+			}
+		},
+		{
+			"path": "pages/notes/categories",
+			"style": {
+				"navigationBarTitleText": "笔记分类",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/notes/category-notes",
+			"style": {
+				"navigationBarTitleText": "分类笔记",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "主页"
+			}
+		},
+		{
+			"path": "pages/message-board/message-board",
+			"style": {
+				"navigationBarTitleText": "留言板"
+			}
+		},
+		{
+			"path": "pages/account/account",
+			"style": {
+				"navigationBarTitleText": "存钱罐"
+			}
+		},
+		{
+			"path": "pages/account/add-record/add-record",
+			"style": {
+				"navigationBarTitleText": "添加记录"
+			}
+		},
+		{
+			"path": "pages/asset/asset",
+			"style": {
+			  "navigationBarTitleText": "资产"
+			}
+		},
+		{
+			"path": "pages/memory-day/memory-day",
+			"style": {
+				"navigationBarTitleText": "纪念日"
+			}
+		},
+		{
+			"path": "pages/lucky-wheel/lucky-wheel",
+			"style": {
+				"navigationBarTitleText": "大转盘"
+			}
+		},
+		{
+			"path": "pages/notes/note-detail",
+			"style": {
+				"navigationBarTitleText": "笔记详情",
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path" : "pages/todo/todo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "TODO"
+			}
+		},
+		{
+			"path" : "pages/translate/translate",
+			"style" : 
+			{
+				"navigationBarTitleText" : "翻译工具"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Life",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#56ab2f",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "工具箱",
+				"iconPath": "static/toolbox.png",
+				"selectedIconPath": "static/toolbox_active.png"
+			},
+			{
+				"pagePath": "pages/notes/notes",
+				"text": "笔记",
+				"iconPath": "static/notes.png",
+				"selectedIconPath": "static/notes_active.png"
+			},
+			{
+				"pagePath": "pages/home/home",
+				"text": "主页",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home_active.png"
+			}
+		]
+	},
+	"easycom": {
+		"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+	}
+}
